@@ -1,18 +1,18 @@
 {
   "name": "beanstalk-node-express",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "author": "github.com/ezy",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "start:eb": "eb local run"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
+    "debug": "^4.0.1",
     "dotenv": "^6.0.0",
     "express": "~4.16.0",
     "hbs": "~4.0.1",
-    "http-errors": "~1.6.2",
+    "http-errors": "^1.7.1",
     "morgan": "~1.9.0",
     "node-sass-middleware": "0.11.0"
   }
