@@ -1,8 +1,39 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 1em;
+  background: #9baec7;
+  color: #333;
+  text-align: center;
+  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana, sans-serif;
+  width: 80%;
+  margin: 0 auto;
 }
 
-a {
-  color: #00B7FF;
+h1 {
+  margin: 1em 0;
+  border-bottom: 1px dashed;
+  padding-bottom: 1em;
+  font-weight: lighter;
+}
+
+p {
+  font-style: italic;
+}
+
+.loader {
+  margin: 0 0 2em;
+  height: 100px;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*
+  Set the color of the icon
+*/
+
+svg path, svg rect {
+  fill: #102ec2;
 }
