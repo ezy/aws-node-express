@@ -4,11 +4,11 @@ An example setup to get your Express JS application deployed to AWS Elastic Bean
 
 ## App Setup
 
-* Use the Elastic Beanstalk console to create a new NodeJS Application and environment
-* Go to Configuration and set your Node -v to 8.11.4 and PORT=8081 in env vars
+* Use the AWS console to navigate to Elastic Beanstalk and create a new NodeJS Application and environment
+* Go to the Configuration tab and under "Software" set your Node -v to 8.11.4 and PORT=8081 in env vars
 * Clone the repository
 * Cd to dir and run `npm install`
-* Install EB-cli
+* Install AWS tools and EB-cli (can be done with brew packages `awscli` and `aws-elasticbeanstalk`)
 * Setup your dir with `eb init` and select previously setup Application
 * Select your environment with `eb list` then `eb use <env-name>` (or `eb create` an env from the console)
 * Run `eb deploy` to upload to AWS
