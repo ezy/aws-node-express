@@ -12,3 +12,9 @@ An example setup to get your Express JS application deployed to AWS Elastic Bean
 * Setup your dir with `eb init` and select previously setup Application
 * Select your environment with `eb list` then `eb use <env-name>` (or `eb create` an env from the console)
 * Run `eb deploy` to upload to AWS
+
+## Run locally
+
+* Rename `.env.example` => `.env` and set your env variables
+* `npm start`
+* Open http://localhost:8081/
